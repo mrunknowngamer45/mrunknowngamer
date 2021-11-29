@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="utf-8">
+    <meta name="description" content="MR Unknown Gamer">
+	  <meta name="keywords" content="YouTube Gamer, Mr Unknown Gamer, Mr Unknown Gamer">
+  	<meta name="author" content="Brad Traversy">
+    <title>Mr Unknown Gamer | Security</title>
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="icon" href="img/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+				
+				
+			
+					<div class="container">
+									<div class="form">
+													
+								
+				<form name="myform" class="myform">
+							
+				<input type="password" name ="fname"id="txt" autofocus placeholder="Enter password"><br>
+			 <button type="button" onclick="myfun()" id="myfun()">Submit</button><br>
+			 <p id="text"></p>
+			
+			 </form>
+			  </div>
+			  	</div><!DOCTYPE html>
+			  	<html lang="en">
+			  	<head>
+			  					<title>Page title</title>
+			  	</head>
+			  	<body>
+			  					
+			  	</body>
+			  	</html>
+</body>
+<script>
+				function myfun() {
+				var x, msg;
+				//Get the value of the input field with id="myfun()"
+			var	x = document.forms["myform"]["fname"].value;
+				if(x=="") {
+								msg = "Enter password";
+				}
+				
+				    //If x is not a number or less than one or greater than 8				
+				 if(x == "website") {
+								msg = "welcome";
+								location = "home.html"
+				}else if(x == "Image") {
+								msg = "welcome";
+								location = "img.html"
+       }else{
+								 msg = "Incorrect password";
+								 
+				}
+				document.getElementById("text").innerHTML = msg;
+}
+
+				
+</script>
+</html>
